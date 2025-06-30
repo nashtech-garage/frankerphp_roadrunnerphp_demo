@@ -1,0 +1,8 @@
+:80
+
+root * /app/public
+
+handle_path / {
+    php_fastcgi
+    file_server
+}
